@@ -13,6 +13,8 @@ char_counter = 0
 spaces = 0
 amount_shifted = int(sys.argv[1])
 
+print("Type 'q' and press enter to exit/finalize")
+
 for line in sys.stdin:
   if line.rstrip() == "q":
     break
